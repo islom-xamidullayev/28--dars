@@ -1,0 +1,35 @@
+@media (max-width: 571px) {
+  .service {
+    width: 100%;
+
+    &__wrapper {
+      display: block;
+    }
+    &__card {
+      margin: 0;
+    }
+  }
+
+  .service-taytl {
+    margin-bottom: 35px;
+  }
+
+  .portfolio-image {
+    width: 100%;
+    width: 329px;
+    height: 416px;
+  }
+ 
+  .ddd,
+  .sofa,
+  .KeyBoard,
+  .work {
+    width: 100%;
+    width: 353px;
+    height: 416px;
+  }
+  .portfolio-overlay {
+    top: 100px;
+    left: -100px;
+  }
+}

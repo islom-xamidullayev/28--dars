@@ -32,4 +32,25 @@
     top: 100px;
     left: -100px;
   }
+
+  .team-container, .founder__wrapper, .testimonials__wrapper {
+    display: flex;
+    flex-direction: column;
+  }
+ .testimonials__wrapper {
+    gap: 30px;
+ }
+.testimonials__card {
+  height: auto;
+}
+    
+  .founder__img img, .testimonials__card{
+    width: 100%;
+  }
+ .portfolio-bnt2 {
+  margin: 0;
+  text-align: center;
+  display: block;
+ }
+
 }

@@ -369,7 +369,7 @@
     margin-top: 39px;
     &__taytl {
       color: #ef6d58;
-      
+
       font-size: 16px;
       font-weight: 400;
       line-height: 32px;
@@ -384,17 +384,91 @@
       margin-top: 33px;
     }
     &__ren {
-padding-top: 43px;
-font-size: 20px;
-font-weight: 400;
-line-height: 32px;
-text-align: left;
-padding-bottom: 14px;
+      padding-top: 43px;
+      font-size: 20px;
+      font-weight: 400;
+      line-height: 32px;
+      text-align: left;
+      padding-bottom: 14px;
     }
 
     &__foun {
       color: #afababd3;
-
     }
   }
+}
+
+.testimonials {
+  background-color: $TEXT-DARK-ACCENT;
+ padding-top: 100px;
+ padding-bottom: 60px;
+  &__abut {
+    color: #f96332;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 3px;
+    text-align: center;
+  }
+
+  &__taytl {
+    color: $TEXT-DARK;
+    font-size: 56px;
+    font-weight: 800;
+    line-height: 64px;
+    letter-spacing: -1px;
+    text-align: center;
+  }
+
+  &__wrapper {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding-top: 60px;
+  }
+  &__card {
+    width: 586px;
+    height: 400px;
+    padding: 48px;
+    border-radius: 6px 0px 0px 0px;
+    border: 1px #eab496 solid;
+  
+    &__info {
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 32px;
+      text-align: left;
+      padding-top: 36px;
+      padding-bottom: 45px;
+    }
+  }
+  &__card:hover {
+    background-color: #ffffff;
+    
+  }
+}
+
+.card2__wrapper {
+  display: flex;
+  gap: 18px;
+  align-items: center;
+
+}
+.card2__info h2{
+padding-bottom: 10px;
+font-size: 24px;
+font-weight: 700;
+line-height: 32px;
+text-align: left;
+
+}
+.portfolio-bnt2 {
+  font-family: Epilogue;
+font-size: 14px;
+font-weight: 900;
+line-height: 14.35px;
+text-align: center;
+padding: 17px 41px;
+  margin-top: 80px;
+  margin-left: 500px;
+  cursor: pointer;
 }
